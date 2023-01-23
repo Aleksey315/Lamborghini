@@ -245,8 +245,30 @@ body {
 	color: #ffff;
 }
 
-/*.evo-black__inner {
-}*/
+.evo-black__inner {
+	position: relative;
+}
+
+.evo-black__inner::before {
+	content: '';
+	background-image: url(../images/dec-1.svg);
+	width: 185px;
+	height: 213px;
+	position: absolute;
+	top: 210px;
+	left: -130px;
+}
+
+.evo-black__inner::after {
+	content: '';
+	background-image: url(../images/dec-2.svg);
+	width: 498px;
+	height: 572px;
+	position: absolute;
+	top: 290px;
+	left: -40px;
+}
+
 .evo-black__info {
 	display: flex;
 	justify-content: space-between;
@@ -272,6 +294,8 @@ body {
 .evo-black__img {
 	display: block;
 	margin-bottom: 170px auto 58px;
+	position: relative;
+	z-index: 1;
 }
 
 .evo__descr-list {
@@ -287,8 +311,28 @@ body {
 .evo-white {}
 
 .evo-white__inner {
-	padding: 125px;
+	padding-top: 125px;
+	position: relative;
+}
 
+.evo-white__inner::before {
+	content: '';
+	background-image: url(../images/dec3.png);
+	width: 274px;
+	height: 257px;
+	position: absolute;
+	top: 210px;
+	left: -130px;
+}
+
+.evo-white__inner::after {
+	content: '';
+	background-image: url(../images/dec4.png);
+	width: 324px;
+	height: 311px;
+	position: absolute;
+	top: 210px;
+	left: -40px;
 }
 
 .evo-white__text {
@@ -308,6 +352,20 @@ body {
 	max-width: 590px;
 }
 
-.evo-white__video {}
+.evo-white__video {
+	margin-top: 100px;
+	background-image: url(../images/evo-video.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 264px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
 
-.evo-white__video-link {}
+.evo-white__video-link span {
+	display: block;
+	color: #fff;
+}
