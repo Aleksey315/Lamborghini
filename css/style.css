@@ -303,9 +303,6 @@ body {
   text-transform: uppercase;
 }
 
-.evo-white {
-}
-
 .evo-white__inner {
   padding-top: 125px;
   position: relative;
@@ -363,4 +360,45 @@ body {
 .evo-white__video-link span {
   display: block;
   color: #fff;
+}
+/* !blog */
+.blog {
+  margin-bottom: 100px;
+}
+
+.blog__title {
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.blog__slider {
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.blog__item {
+}
+.blog__item-img {
+  margin-bottom: 20px;
+}
+.blog__item-title {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  min-height: 46px;
+}
+.blog__item-text {
+  font-weight: 400;
+  font-size: 14px;
+}
+.blog__item-link {
+}
+.swiper-button-prev {
+}
+.swiper-button-next {
 }
